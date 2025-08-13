@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Button() {
+export function Button() {
     return (
         <button>
-
+            Button
         </button>
     );
 }

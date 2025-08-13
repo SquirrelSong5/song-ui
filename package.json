@@ -4,7 +4,7 @@
   "description": "A UI library for self use",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "pnpm --filter components test"
   },
   "keywords": [],
   "author": "sqsong <squirrel.song@qq.com>",
@@ -19,7 +19,11 @@
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^30.0.0",
     "@types/react": "^19.1.10",
-    "@types/react-dom": "^19.1.7"
+    "@types/react-dom": "^19.1.7",
+    "jest": "^30.0.5"
   }
 }
